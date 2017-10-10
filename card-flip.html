@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Card Flip 10-10-17</title>
+	<link rel="stylesheet" type="text/css" href="css/card-flip.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/card-flip.js"></script>
+</head>
+<body>
+
+
+	<!-- card is the outer container in which children will be able to play around in a 3d environment. -->
+	<div class="card">
+		
+		<!-- card-holder is the inner container. 
+		it will have 2 children. front and back
+		front and back will NOT move.
+		card-holde rwill move -->
+		<div class="card-holder">
+			<div class="card-front">
+				<img src="../101017/images/beauty.jpeg" alt="" />
+			</div>
+			<div class="card-back">
+			<img src="../101017/images/lumiere.jpeg" alt="" />
+			</div>
+		</div>
+	</div>
+
+	<label>Change Perspective</label>
+	<input id="change-perspective" value="200px" name="" />
+	<label>Change Origin</label>
+	<input id="change-loc" value="10% 0" />
+
+	<div id="parent">
+		<div id="threeD">
+			Hello, World. I'm a 3d child.
+		</div>
+
+		<div id="threeD2">
+			Hello, World. I'm a 3d child also.
+		</div>
+
+		<div id="threeD3">
+			Hello, World. I'm a 3d child also.
+		</div>
+	</div>
+
+
+	
+</body>
+</html>
